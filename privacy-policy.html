@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — ShipNano</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: #f8fafc;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  header {
+    background: #1a1a2e;
+    padding: 2rem;
+    text-align: center;
+  }
+  header h1 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+  }
+  header p {
+    color: #4FC3F7;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    margin-top: 4px;
+    text-transform: uppercase;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+  }
+  .updated {
+    font-size: 0.8rem;
+    color: #64748b;
+    margin-bottom: 2.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin: 2rem 0 0.5rem;
+  }
+  p { color: #334155; font-size: 0.95rem; margin-bottom: 0.75rem; }
+  ul { margin: 0.5rem 0 0.75rem 1.5rem; color: #334155; font-size: 0.95rem; }
+  ul li { margin-bottom: 0.3rem; }
+  .products {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+  }
+  .product-badge {
+    background: #e0f2fe;
+    color: #0369a1;
+    font-size: 0.8rem;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+  .highlight {
+    background: #f0fdf4;
+    border-left: 3px solid #00E5FF;
+    padding: 1rem 1.25rem;
+    border-radius: 0 8px 8px 0;
+    margin: 1.5rem 0;
+  }
+  .highlight p { margin: 0; color: #0f172a; font-weight: 500; }
+  footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.8rem;
+    color: #94a3b8;
+    border-top: 1px solid #e2e8f0;
+  }
+  a { color: #0369a1; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Privacy Policy</h1>
+  <p>ShipNano Chrome Extensions</p>
+</header>
+
+<main>
+  <p class="updated">Last updated: June 2026</p>
+
+  <p>This privacy policy applies to all Chrome browser extensions 
+  published by ShipNano:</p>
+
+  <div class="products">
+    <span class="product-badge">PayloadPeek</span>
+    <span class="product-badge">BearerPeek</span>
+    <span class="product-badge">TextPeek</span>
+  </div>
+
+  <div class="highlight">
+    <p>&#x2714; None of our extensions collect, transmit, store, 
+    or share any personal data or user content whatsoever. 
+    All processing happens entirely on your device.</p>
+  </div>
+
+  <h2>Data Collection</h2>
+  <p>ShipNano extensions do not collect any data. This includes:</p>
+  <ul>
+    <li>No personal information</li>
+    <li>No usage analytics or telemetry</li>
+    <li>No browsing history or page content</li>
+    <li>No text, JSON, or JWT tokens you paste or type</li>
+    <li>No crash reports or error logs sent anywhere</li>
+    <li>No cookies or tracking of any kind</li>
+  </ul>
+
+  <h2>How Data is Processed</h2>
+  <p>All processing — JSON formatting, TypeScript generation, 
+  JWT decoding, character counting — happens entirely within 
+  your browser using local JavaScript. No data is ever sent 
+  to any server, API, or third party.</p>
+
+  <h2>Local Storage</h2>
+  <p>Extensions may use <code>chrome.storage.local</code> and 
+  <code>chrome.storage.sync</code> solely to remember your 
+  preferences (such as theme choice or default platform setting). 
+  This data never leaves your browser and is never transmitted 
+  anywhere.</p>
+
+  <h2>Permissions</h2>
+  <p>Our extensions request only the permissions necessary for 
+  their core features:</p>
+  <ul>
+    <li><strong>activeTab / scripting</strong> — to read the 
+    current page for JSON detection or selected text</li>
+    <li><strong>storage</strong> — to save your preferences locally</li>
+    <li><strong>contextMenus</strong> — to add right-click options</li>
+  </ul>
+  <p>None of these permissions are used to collect or transmit data.</p>
+
+  <h2>Third Parties</h2>
+  <p>ShipNano extensions do not integrate with any third-party 
+  services, analytics platforms, or advertising networks.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>Our extensions do not knowingly collect any information 
+  from anyone, including children under the age of 13.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>If this policy changes, the updated version will be posted 
+  at this URL with a revised date. Given our zero-data approach, 
+  significant changes are unlikely.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this privacy policy? Contact us at 
+  <a href="mailto:hello@shipnano.dev">hello@shipnano.dev</a> 
+  or open an issue on our 
+  <a href="https://github.com/shipnano" target="_blank">
+  GitHub page</a>.</p>
+
+</main>
+
+<footer>
+  &copy; 2026 ShipNano &mdash; small tools. shipped.
+</footer>
+
+</body>
+</html>
